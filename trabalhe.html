@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8">
+    <link rel="sortcut icon" href="img/mp1.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <title>Trabalhe Conosco</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="promocoes.html">Promoções</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="trabalhe.html">Trabalhe Conosco</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Envie seu curriculo.</h1>
+    
+    <form mothod="POST" action="processa.php">
+    <Label>Nome</Label>
+    <input type="text" name="nome" placeholder="Nome completo..."> <br><br>
+
+    <Label>E-Mail</Label>
+    <input type="email" name="email" placeholder="Digite seu E-mail..."> <br><br>
+
+    <Label>Mensagem</Label>
+    <textarea  name="mensagem" rows="5" placeholder="Fale sobre você..." cols="50"></textarea> <br><br>
+
+        <input name="btn1" type="submit" value="Enviar" > <br><br>  
+    </form>
+</body>
+</html>
